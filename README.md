@@ -23,3 +23,4 @@
 命令：JiuJia yuemiao --config=/path/to/your/config.yml
 
 ```
+### 这还有一个java项目可以参考 https://github.com/lyrric/seckill
