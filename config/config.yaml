@@ -1,0 +1,28 @@
+# 调试模式：生产环境请关闭此项
+debug: false
+pprof:
+  enabled: false
+  addr: ":32999"
+logger:
+  level: "error"
+  format: "json"
+  output: ""
+# 开启的协程数量(不建议修改，封号了我不管)
+total: 5
+# 每个协程抢购时间间隔，单位毫秒(不建议修改，封号了我不管)
+step: 200
+
+# 下面的所有内容请认真配置
+
+# 身份验证鉴权使用，抓包从请求头中获取
+tk: ""
+# 接种成员id
+member_id: ""
+# 接种成员身份证号码
+id_card: ""
+# 选择的地区代码,4位,成都为 5101
+region_code: "5101"
+# cookie
+cookie: ""
+# 接种疫苗id
+vaccine_id: ""
